@@ -7,7 +7,7 @@
   "license": "",
   "language":"node",
   "scripts": {
-     "start": "node app.js"
+     "start": "/home/pi/.nodebrew/current/bin/node app.js"
     },
    "dependency": null
 }
