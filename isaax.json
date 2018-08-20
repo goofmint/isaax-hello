@@ -8,6 +8,6 @@
   "language":"python",
   "scripts": {
      "start": "python app.py"
-    },
+   },
    "dependency": null
 }
