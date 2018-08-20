@@ -1,7 +1,9 @@
-import time
-import sys
-
+from pyfirmata import Arduino, util
+from time import sleep
+board = Arduino('/dev/ttyS0')
+print "Start blinking D4"
 while True:
-    print("Hello IoT from Isaax")
-    sys.stdout.flush()
-    time.sleep(5)
+    board.digital[4].write(1)
+    sleep(0.5)
+    board.digital[4].write(0)
+    sleep(0.5)
